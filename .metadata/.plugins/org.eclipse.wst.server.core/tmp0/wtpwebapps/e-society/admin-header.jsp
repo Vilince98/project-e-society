@@ -146,44 +146,43 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
               </li>
 			  <li class="treeview">
                 <a href="admin-view-all-members.jsp">
-                <i class="fa fa-pie-chart"></i>
+                <i class="fa fa-users"></i>
                 <span>Society Members</span>
                 
                 </a>
               </li>
               <li class="treeview">
                 <a href="admin-approve-registration-request.jsp">
+                <i class="fa fa-check-square-o"></i>
+                <span>Approve Request</span>
+                </a>
+              </li>
+              <li class="treeview">
+                <a href="admin-manage-complaint.jsp">
                 <i class="fa fa-pie-chart"></i>
-                <span>Approve Registration Request</span>
+                <span>Manage Complaint</span>
+                </a>
+              </li>
+              <li class="treeview">
+                <a href="admin-view-all-notice.jsp">
+                <i class="fa fa-file-text-o"></i>
+                <span>Manage Society Circular</span>
+                </a>
+              </li>
+
+               
+               <li class="treeview">
+                <a href="admin-view-hall-booking.jsp">
+                <i class="fa fa-calendar-o"></i>
+                <span>Hall Booking</span>
                 </a>
               </li>
               <li class="treeview">
               <li class="treeview">
                 <a href="#">
-                <i class="fa fa-laptop"></i>
+                <i class="fa fa-money"></i>
 				<span>Payment</span>
                 </a>
-              </li>
-              <li class="treeview">
-              <li class="treeview">
-                <a href="admin-complaint.jsp">
-                <i class="fa fa-laptop"></i>
-				<span>Complaint</span>
-                </a>
-              </li>
-              <li class="treeview">
-              <li class="treeview">
-                <a href="#">
-                <i class="fa fa-laptop"></i>
-                <span>UI Elements</span>
-                <i class="fa fa-angle-left pull-right"></i>
-                </a>
-                <ul class="treeview-menu">
-                  <li><a href="admin-complaint.jsp"><i class="fa fa-angle-right"></i> General</a></li>
-                  <li><a href="icons.html"><i class="fa fa-angle-right"></i> Icons</a></li>
-                  <li><a href="buttons.html"><i class="fa fa-angle-right"></i> Buttons</a></li>
-                  <li><a href="typography.html"><i class="fa fa-angle-right"></i> Typography</a></li>
-                </ul>
               </li>
 			  <li>
                 <a href="admin-logout.jsp">

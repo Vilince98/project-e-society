@@ -27,15 +27,12 @@
       <div class="container py-lg-5">
         <div class="ab-section text-center">
           <h6 class="sub-title">About Us</h6>
-          <p class="py-3">E-Society offers you a hassle-free web-based management tool to transform your society, making it highly functional and easily manageable. 
-
-The easy flowing User Interface of E-Society and its precisely structured tools help you maintain and generate inward/outward billing, generating monthly maintenance statements, sending general and specific notices to the society members, maintaining general and specific records, scheduling meetings and generating interrelated collaterals, income and expense tracker, parking allotments, and all other tasks accurately and effortlessly. Also its extensive features provides you or any member of the society access to required data from anywhere anytime, thanks to online integration system that stores and operates all required data on a highly secured website.
-
-.</p>
+          <p class="py-3">We'll help you to manage your society related work. If you're facing any problem then you can register your complain
+          and we'll reach out with possible solutions.</p>
         </div>
         <div class="row mt-5">
           <div class="col-md-9 mx-auto">
-            <img src="assets/images/one.JPG" class="img-fluid" alt="" width="900px">
+            <img src="assets/images/banner5.jpg" class="img-fluid" alt="">
           </div>
         </div>
       </div>

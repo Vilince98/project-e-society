@@ -85,7 +85,7 @@ public class MemberDao {
 			if(rs.next())
 			{
 				m1 = new Member();
-				m1.setMid(rs.getInt("mid"));
+				m1.setmid(rs.getInt("mid"));
 				m1.setFname(rs.getString("fname"));
 				m1.setLname(rs.getString("lname"));
 				m1.setContact(rs.getLong("contact"));
@@ -148,27 +148,5 @@ public class MemberDao {
 			e.printStackTrace();
 		}
 	}
-
-	public static void updateProfile(Member m) {
-		try {
-			Connection conn = DBConnection.createConnection();
-			String sql = "update member set fname=?, lname=?, contact=?, h_no=?, address=?, join_date=?, email=? where mid=?";
-			PreparedStatement pst = conn.prepareStatement(sql);
-			pst.setString(1, m.getFname());
-			pst.setString(2, m.getLname());
-			pst.setLong(3, m.getContact());
-			pst.setInt(4, m.getH_no());
-			pst.setString(5, m.getAddress());
-			pst.setString(6, m.getJoin_date());
-			pst.setString(7, m.getEmail());
-			pst.setInt(8, m.getMid());
-			pst.executeUpdate();
-			System.out.println("Member data Updated");
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}		
-	}
-	
 	
 }

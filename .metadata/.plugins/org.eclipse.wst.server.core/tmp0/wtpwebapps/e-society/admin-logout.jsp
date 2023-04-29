@@ -9,7 +9,7 @@
 <body>
 
 <%
-	session.removeAttribute("data");
+	session.removeAttribute("adminData");
 	session.invalidate();
 	response.sendRedirect("index.jsp");
 %>

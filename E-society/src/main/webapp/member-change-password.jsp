@@ -1,4 +1,3 @@
-<%@page import="model.Member"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -9,14 +8,13 @@
 </head>
 <body>
 <%@include file="member-header.jsp" %>
-
 <!-- about breadcrumb -->
   <section class="w3l-about-breadcrumb text-left">
     <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
       <div class="container">
         <h2 class="title">Member Change Password</h2>
         <ul class="breadcrumbs-custom-path mt-2">
-          <li><a href="index.jsp">Home</a></li>
+          <li><a href="member-home.jsp">Home</a></li>
           <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Change Password </li>
         </ul>
       </div>

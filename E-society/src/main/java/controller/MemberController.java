@@ -177,22 +177,10 @@ public class MemberController extends HttpServlet {
 			}
 		}
 		else if(action.equalsIgnoreCase("editProfile")) {
-			Member m = new Member();
-			m.setMid(Integer.parseInt(request.getParameter("mid")));
-			m.setFname(request.getParameter("fname"));
-			m.setLname(request.getParameter("lname"));
-			m.setContact(Long.parseLong(request.getParameter("contact")));
-			m.setH_no(Integer.parseInt(request.getParameter("h_no")));
-			m.setAddress(request.getParameter("address"));
-			m.setJoin_date(request.getParameter("join_date"));
-			m.setEmail(request.getParameter("email"));
-			m.setPassword(request.getParameter("password"));
-			MemberDao.updateProfile(m);
-			HttpSession session = request.getSession();
-			session.setAttribute("memberData", m);
-			request.getRequestDispatcher("member-home.jsp").forward(request, response);
+			
 		}
 			
+		
 	}
-	
+
 }

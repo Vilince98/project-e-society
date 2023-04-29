@@ -5,13 +5,10 @@ public class Member {
 	private int mid,h_no;
 	private String fname,lname,address,join_date,email,password,register_status;
 	private long contact;
-	
-	
-	
 	public int getMid() {
 		return mid;
 	}
-	public void setMid(int mid) {
+	public void setmid(int mid) {
 		this.mid = mid;
 	}
 	public int getH_no() {
